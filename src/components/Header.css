@@ -1,0 +1,28 @@
+.header-root{
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    height: 5rem;
+    img{
+        height: 100%;
+    }
+}
+
+.header-links{
+    display: flex;
+    a{
+        width: 10rem;
+        color: black;
+        font-size: 1.5rem;
+        text-decoration: none;
+        text-align: center;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

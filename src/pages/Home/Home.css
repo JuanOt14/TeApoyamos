@@ -1,0 +1,45 @@
+.home-root{
+    width: 100%;
+}
+
+.home-main{
+    width: 100%;
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-main-text{
+    color: blue;
+    padding-right: 10rem;
+    h1{
+        font-size: 5rem;
+    }
+    p{
+        line-height: 2rem;
+    }
+    a{
+        width: fit-content;
+        height: fit-content;
+        
+    }
+}
+
+.home-main-btn{
+    background-color: #4CAF50;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.home-main-img{
+    width: 50rem;
+    img{
+        width: 100%;
+    }
+}
