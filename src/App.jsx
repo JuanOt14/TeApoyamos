@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 
 //import pages
 import Home from './pages/Home/Home';
+import Nosotros from './pages/Nosotros/Nosotros';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Header />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/nosotros' element={<Nosotros />} />
         </Routes>
       <Footer />
       </BrowserRouter>
