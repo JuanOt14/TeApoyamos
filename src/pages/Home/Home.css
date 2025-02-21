@@ -1,5 +1,6 @@
 .home-root{
     width: 100%;
+    background: var(--white);
 }
 
 .home-main{
@@ -8,11 +9,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .home-main-text{
-    color: blue;
-    padding-right: 10rem;
+    color: var(--primary-blue);
+    flex: 1; 
+    min-width: 300px; 
+    padding-right: 5rem;
     h1{
         font-size: 5rem;
     }
@@ -22,32 +26,38 @@
     a{
         width: fit-content;
         height: fit-content;
-        
+        text-decoration: none;
     }
 }
 
 .home-main-btn{
-    background-color: #4CAF50;
+    background-color: var(--primary-green);
+    margin-top: 1rem;
     width: fit-content;
     height: fit-content;
     padding: 1rem;
     text-align: center;
     color: white;
     font-size: 2rem;
-    text-decoration: none;
 }
 
 .home-main-img{
-    width: 50rem;
+    flex: 1;
+    max-width: 500px; 
+    min-width: 300px; 
+    display: flex;
+    justify-content: center;
     img{
         width: 100%;
+        height: auto;
+        object-fit: contain;
     }
 }
 
 .home-services{
     width: 100%;
     padding: 5rem;
-    color: blue;
+    color: var(--primary-blue);
 }
 
 .home-services-items{
