@@ -43,3 +43,17 @@
         width: 100%;
     }
 }
+
+.home-services{
+    width: 100%;
+    padding: 5rem;
+    color: blue;
+}
+
+.home-services-items{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
