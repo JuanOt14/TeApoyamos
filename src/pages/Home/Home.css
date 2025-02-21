@@ -12,8 +12,17 @@
     flex-wrap: wrap;
 }
 
+.home-main-content{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .home-main-text{
     color: var(--primary-blue);
+    padding-left: 2rem;
     flex: 1; 
     min-width: 300px; 
     padding-right: 5rem;
