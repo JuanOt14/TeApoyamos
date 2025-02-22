@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 //import pages
 import Home from './pages/Home/Home';
 import Nosotros from './pages/Nosotros/Nosotros';
+import Aliados from './pages/Aliados/Aliados';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/nosotros' element={<Nosotros />} />
+          <Route path='/aliados' element={<Aliados />} />
         </Routes>
       <Footer />
       </BrowserRouter>

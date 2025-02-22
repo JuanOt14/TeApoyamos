@@ -17,7 +17,7 @@ export default function Header () {
             <nav className='header-links'>
                 <Link to='/'>Inicio</Link>
                 <Link to='/nosotros'>Nosotros</Link>
-                <Link to='/'>Aliados</Link>
+                <Link to='/aliados'>Aliados</Link>
                 <Link to='/'>Contacto</Link>
             </nav>
         </header>

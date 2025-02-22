@@ -1,0 +1,24 @@
+.aliados-root{
+    background: var(--white);
+    padding: 5rem;
+}
+
+.aliados-main{
+    background: white;
+    padding: 2rem;
+    text-align: center;
+    color: var(--primary-blue);
+    h1{
+        font-size: 3rem;
+    }
+}
+
+.aliados-content{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    a{
+        text-decoration: none;
+    }
+}

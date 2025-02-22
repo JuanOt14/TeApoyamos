@@ -1,0 +1,17 @@
+[
+    {
+        "name":"Aliado 1",
+        "image":"logo.png",
+        "url":"www.aliado.com"
+    },
+    {
+        "name":"Aliado 2",
+        "image":"logo.png",
+        "url":"www.aliado.com"
+    },
+    {
+        "name":"Aliado 3",
+        "image":"logo.png",
+        "url":"www.aliado.com"
+    }
+]
