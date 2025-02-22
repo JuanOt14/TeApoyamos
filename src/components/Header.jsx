@@ -18,7 +18,7 @@ export default function Header () {
                 <Link to='/'>Inicio</Link>
                 <Link to='/nosotros'>Nosotros</Link>
                 <Link to='/aliados'>Aliados</Link>
-                <Link to='/'>Contacto</Link>
+                <Link to='/contacto'>Contacto</Link>
             </nav>
         </header>
     )

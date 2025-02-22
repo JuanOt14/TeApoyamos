@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home/Home';
 import Nosotros from './pages/Nosotros/Nosotros';
 import Aliados from './pages/Aliados/Aliados';
+import Contacto from './pages/Contacto/Contacto';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/nosotros' element={<Nosotros />} />
           <Route path='/aliados' element={<Aliados />} />
+          <Route path='/contacto' element={<Contacto />} />
         </Routes>
       <Footer />
       </BrowserRouter>

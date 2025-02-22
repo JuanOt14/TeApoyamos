@@ -1,0 +1,32 @@
+.contacto-root{
+    background: var(--white);
+    padding: 5rem;
+}
+
+.contacto-main{
+    background: white;
+    display: flex;
+}
+
+.contacto-main-img{
+    flex: 1;
+    max-width: 500px; 
+    min-width: 300px; 
+    img{
+        width: 100%;
+    }
+}
+
+.contacto-main-text{
+    flex: 1;
+    padding: 2rem;
+    text-align: justify;
+    h2{
+        font-size: 2rem;
+        color: var(--primary-blue);
+    }
+    p{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+}
